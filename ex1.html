@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <video autoplay muted loop id="bg-vid">
+        <source src="18492-292594998.mp4" type="video/mp4">
+    </video>
+    <div class="container">
+    <h2 >Calculate a weight of an object on a planet</h2>
+    <div class="search">
+        <input type="text" class="inp1" placeholder="Mass in kilogram">
+        <input type="text" class="inp2" list="planets" placeholder="select planet">
+        <button class="calc"> Calculate weight</button>
+    </div>
+    <div>
+        <div class="world">
+            <div class="mass">Mass is required</div>
+        </div>
+    </div>
+    
+    
+</div>
+
+    <datalist  id="planets">
+        <option value="Mercury"></option>
+        <option value="Venus"></option>
+        <option value="Earth"></option>
+        <option value="Mars"></option>
+        <option value="Jupiter"></option>
+        <option value="Uranus"></option>
+        <option value="Saturn"></option>
+        <option value="Neptune"></option>
+        <option value="Moon"></option>
+    </datalist>
+    <script src="ex.js">
+    </script>
+</body>
