@@ -21,4 +21,4 @@ It takes a mass in kg and convert it to the weight it would be in any planet in 
 
 ---
 ### Preview
-![Demo](demo.gif)
+![preview](preview.gif)
